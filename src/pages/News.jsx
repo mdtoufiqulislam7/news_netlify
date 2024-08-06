@@ -31,7 +31,7 @@ function News() {
                         />
                         <div className="p-6">
                             <h2 className="text-xl font-semibold text-gray-800">{item?.title}</h2>
-                            <p className="mt-2 text-gray-600">{item?.description}</p>
+                            <p className="mt-2 text-gray-600">{item?.discription}</p>
                             <p className="mt-2 text-gray-600">{item?.teg}</p>
                         </div>
                     </div>
