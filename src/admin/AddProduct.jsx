@@ -19,7 +19,7 @@ function AddProduct() {
         // Dispatch the action and pass product details as payload
         await dispatch(addproduct({ name, brand, price, teg })).unwrap();
         // Navigate to the dashboard after successful submission
-        navigate('/');
+        navigate('/deshboard');
         window.location.reload()
       } catch (err) {
         // Handle errors and set an error message if needed
